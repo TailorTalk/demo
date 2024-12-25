@@ -31,7 +31,9 @@ def query_agent(agent_id, query):
         return None
 
 # UI layout
-st.title("MangoGroup Analyst Agent by TailorTalk")
+st.title("MangoGroup Analyst Agent")
+st.header("By TailorTalk")
+st.markdown("---") 
 
 # Create agent on load
 if st.session_state.agent_id is None:
